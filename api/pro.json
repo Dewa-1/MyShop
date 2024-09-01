@@ -1,0 +1,101 @@
+[{
+        "id": 1,
+        "name": "Wireless Bluetooth Headphones",
+        "category": "Electronics",
+        "brand": "AudioTech",
+        "price": 59.99,
+        "stock": 120,
+        "description": "High-quality wireless Bluetooth headphones with noise-cancellation and long battery life.",
+        "image": "./images/imgg-1.png"
+    },
+    {
+        "id": 2,
+        "name": "Smartphone 128GB",
+        "category": "Electronics",
+        "brand": "SmartCo",
+        "price": 699.99,
+        "stock": 50,
+        "description": "Latest model smartphone with 128GB storage, dual cameras, and a fast processor.",
+        "image": "./images/imgg-2.png"
+    },
+    {
+        "id": 3,
+        "name": "Men's Running Shoes",
+        "category": "Footwear",
+        "brand": "SportFlex",
+        "price": 89.99,
+        "stock": 200,
+        "description": "Comfortable and durable running shoes designed for maximum performance.",
+        "image": "./images/imgg-3.png"
+    },
+    {
+        "id": 4,
+        "name": "4K LED TV 55 inch",
+        "category": "Electronics",
+        "brand": "ViewPro",
+        "price": 499.99,
+        "stock": 30,
+        "description": "Ultra HD 4K LED TV with 55 inch screen, smart TV features, and multiple connectivity options.",
+        "image": "./images/imgg-4.avif"
+    },
+    {
+        "id": 5,
+        "name": "Electric Kettle 1.7L",
+        "category": "Home Appliances",
+        "brand": "HomeEase",
+        "price": 29.99,
+        "stock": 150,
+        "description": "1.7-liter electric kettle with auto-shutoff and boil-dry protection.",
+        "image": "./images/imgg-5.webp"
+    },
+    {
+        "id": 6,
+        "name": "Laptop Backpack",
+        "category": "Accessories",
+        "brand": "UrbanPack",
+        "price": 39.99,
+        "stock": 75,
+        "description": "Durable and water-resistant laptop backpack with multiple compartments and USB charging port.",
+        "image": "./images/imgg-6.png"
+    },
+    {
+        "id": 7,
+        "name": "Stainless Steel Cookware Set",
+        "category": "Kitchenware",
+        "brand": "Chef'sChoice",
+        "price": 149.99,
+        "stock": 40,
+        "description": "10-piece stainless steel cookware set, including pots, pans, and lids.",
+        "image": "https://blueberrysindia.com/wp-content/uploads/2022/08/off11-1024x1024.png"
+    },
+    {
+        "id": 8,
+        "name": "Gaming Mouse",
+        "category": "Electronics",
+        "brand": "GameMax",
+        "price": 24.99,
+        "stock": 300,
+        "description": "Ergonomic gaming mouse with customizable DPI settings and RGB lighting.",
+        "image": "./images/imgg-8.webp"
+    },
+    {
+        "id": 9,
+        "name": "Yoga Mat",
+        "category": "Fitness",
+        "brand": "FlexFit",
+        "price": 19.99,
+        "stock": 120,
+        "description": "Non-slip yoga mat with extra cushioning and easy-to-clean surface.",
+        "image": "./images/imgg-9.webp"
+    },
+    {
+        "id": 10,
+        "name": "Cordless Drill",
+        "category": "Tools",
+        "brand": "PowerPro",
+        "price": 79.99,
+        "stock": 60,
+        "description": "18V cordless drill with two batteries and a carrying case, suitable for home and DIY projects.",
+        "image": "./images/imgg-10.webp"
+    }
+]

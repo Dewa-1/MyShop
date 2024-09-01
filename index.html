@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <title>Owner-Shop - E-com.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-a">
+        <h5>Free-shipping, 30 day return, refund guarantee</h5>
+        <div class="buttons">
+            <button>Sign-In</button>
+            <button>Sign-Up</button>
+        </div>
+    </div>
+
+    <div class="container-b-header">
+        <div class="logo"><img src="https://cdn-icons-png.flaticon.com/512/2697/2697432.png" alt="" class="img-1">
+            <h3>Owner-Store</h3>
+        </div>
+        <div class="nav-bar">
+            <ul class="list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutUs.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contactus.html">Contact</a></li>
+                <li>
+                    <a href="addtocart.html" class="cartvalue" id="cartvalue" style="text-decoration: none; color: black;"><i class="fa-solid fa-cart-shopping">0</i></a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="container-c-hero">
+        <div class="description">
+            <h4>explore the latest in tech industries</h4>
+            <h1>your destination for cutting-edge gadgets!</h1>
+            <p>Welcome to Owner Shop eComStore, your ultimate destination for cutting-edge gadgets! Explore the latest in tech innovation and style with us. shop now and discover a world of possibilities</p>
+            <button class="btn-1">Explore our products</button>
+        </div>
+        <div class="image-2"><img src="https://www.pngall.com/wp-content/uploads/11/Home-Appliance-Background-PNG.png" alt="" class="img-2-appl"></div>
+    </div>
+
+    <div class="container-d-new-year">
+        <div class="items-a">
+            <div class="real">
+                <div class="text">
+                    <p>New year sale</p>
+                    <h2>Get and extra 50% off</h2>
+                </div>
+                <div class="r-item"><img src="https://5.imimg.com/data5/SELLER/Default/2023/3/PI/FN/PW/84908436/untitled-design-17-1536x1536-500x500.png" alt=""></div>
+            </div>
+
+
+            <div class="real">
+                <div class="text">
+                    <p>New year sale</p>
+                    <h2>Get and extra 50% off</h2>
+                </div>
+                <div class="r-item"><img src="https://static.vecteezy.com/system/resources/previews/017/054/098/non_2x/headphones-design-3d-rendering-for-product-mockup-png.png" alt=""></div>
+            </div>
+
+
+            <div class="real">
+                <div class="text">
+                    <p>New year sale</p>
+                    <h2>Get and extra 50% off</h2>
+                </div>
+                <div class="r-item"><img src="https://purepng.com/public/uploads/large/purepng.com-asus-smartphonepersonal-computersmartphonemobile-operating-systemcellular-phonephilipsandroid-1701528390817qbpuc.png" alt=""></div>
+            </div>
+        </div>
+
+
+        <div class="guarantee">
+
+            <div class="support">
+                <div class="r-item-b"><img src="https://www.pikpng.com/pngl/b/289-2891813_self-free-shipping-comments-transparent-shipping-icon-png.png" alt=""></div>
+                <div class="text">
+                    <p>World-Wide shipping</p>
+                    <p>Order Above $100</p>
+                </div>
+            </div>
+
+            <div class="support">
+                <div class="r-item-b"><img src="https://png.pngtree.com/png-vector/20230415/ourmid/pngtree-return-on-investment-line-icon-vector-png-image_6708617.png" alt=""></div>
+                <div class="text">
+                    <p>World-Wide shipping</p>
+                    <p>Order Above $100</p>
+                </div>
+            </div>
+
+
+            <div class="support">
+                <div class="r-item-b"><img src="https://cdn-icons-png.flaticon.com/512/9935/9935387.png" alt=""></div>
+                <div class="text">
+                    <p>World-Wide shipping</p>
+                    <p>Order Above $100</p>
+                </div>
+            </div>
+
+            <div class="support">
+                <div class="r-item-b"><img src="https://icons.veryicon.com/png/o/miscellaneous/bitisland-world/customer-service-118.png" alt=""></div>
+                <div class="text">
+                    <p>World-Wide shipping</p>
+                    <p>Order Above $100</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="headingstore">
+        <div class="store-heading">
+            <h1>Ckeck-Out Owner-Store</h1>
+        </div>
+    </section>
+
+
+
+    <!-- ////////////// Populate krne ka production container -->
+
+    <section class="container-prod-b" id="container-prod-b">
+        <div class="prod-container" id="prodContainer">
+
+        </div>
+    </section>
+
+    <!-- //////////////////////// cards for showing products /////////////////-->
+
+
+
+
+
+    <template class="storeTemplate" id="storeTemplate">
+        
+        <div class="card" id="cardvalue">
+           <div class="cat-img">
+                <p class="category" id="category" style="background-color: grey; border-radius: 20px;"></p>
+            <div class="product-img" ><img src="" id="product-img" alt="" style="height: 75px; width: 50px;"></div>
+           </div>
+            <h1 class="productName" id="productName"></h1>
+            <div class="star" id="star">
+                <i class="fa fa-star" aria-hidden="true" style="color: orange;"></i>
+                <i class="fa fa-star" aria-hidden="true" style="color: orange;"></i>
+                <i class="fa fa-star" aria-hidden="true" style="color: orange;"></i>
+                <i class="fa fa-star" aria-hidden="true" style="color: orange;"></i>
+                <i class="fa fa-star" aria-hidden="true" style="color: orange;"></i>
+            </div>
+            <div class="pro-desc" id="pro-desc"></div>
+            <div class="price" id="price">
+            <h2 id="pro-price"></h2>
+                <div><del><h2  class="del-Aprice" id="del-Aprice"></h2></del></div>
+            </div>
+
+            <div class="t-stocks" id="t-stocks">
+                <p>Total stocks available:</p>
+                <div class="quant" id="quant">
+                    <p id="stocks"></p>
+                </div>
+            </div>
+
+            <div class="quantity" id="quantity">
+                <div class="pieces" id="pieces">
+                    <p>Quantity(Pieces)</p>
+                </div>
+                <div class="adjs" id="adjs">
+                    <button class="proIncrement btn-786" id="pro-increment">+</button>
+                    <p class="prod-quant" id="prod-quant" data-quantity = "1">1</p>
+                    <button class="proDecrement btn-786" id="pro-decrement">-</button>
+                </div>
+            </div>
+            <div class="add-cart" id="addcart">
+                <button class="batan"><i class="fa-solid fa-cart-shopping"></i>Add to cart</button>
+            </div>
+        </div>  
+    </template>
+
+
+
+    <!-- card /////////////////////////////////////////////////////////// -->
+
+
+
+
+
+    <h2>Why choose Owner-Shop</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam fugit accusantium blanditiis molestiae consequuntur distinctio, facere, architecto consequatur vitae, laborum at saepe! Tempore quos enim nobis unde delectus recusandae vitae.</p>
+
+    <div class="USp">
+
+        <div class="usp-1">
+            <div class="f1">
+                <h3>Wide selection</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, doloribus laboriosam cum consequuntur nostrum, architecto facere neque voluptatum assumenda porro culpa ipsum blanditiis quaerat commodi autem deserunt minus sed quae.</p>
+            </div>
+
+            <div class="f1">
+                <h3>Wide selection</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, doloribus laboriosam cum consequuntur nostrum, architecto facere neque voluptatum assumenda porro culpa ipsum blanditiis quaerat commodi autem deserunt minus sed quae.</p>
+            </div>
+
+            <div class="f1">
+                <h3>Wide selection</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, doloribus laboriosam cum consequuntur nostrum, architecto facere neque voluptatum assumenda porro culpa ipsum blanditiis quaerat commodi autem deserunt minus sed quae.</p>
+            </div>
+        </div>
+        <div><img src="https://res.cloudinary.com/vantagecircle/image/upload/v1551272152/employee-happiness-at-workplace_zcdsdh.png" alt="" class="img-44"></div>
+        <div class="usp-2">
+
+            <div class="f1">
+                <h3>Wide selection</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, doloribus laboriosam cum consequuntur nostrum, architecto facere neque voluptatum assumenda porro culpa ipsum blanditiis quaerat commodi autem deserunt minus sed quae.</p>
+            </div>
+
+            <div class="f1">
+                <h3>Wide selection</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, doloribus laboriosam cum consequuntur nostrum, architecto facere neque voluptatum assumenda porro culpa ipsum blanditiis quaerat commodi autem deserunt minus sed quae.</p>
+            </div>
+
+            <div class="f1">
+                <h3>Wide selection</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, doloribus laboriosam cum consequuntur nostrum, architecto facere neque voluptatum assumenda porro culpa ipsum blanditiis quaerat commodi autem deserunt minus sed quae.</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="box-1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvL4tHGi6J4HfA2BxLTNgVSGWf5Dp3Gc92Dg&s" alt="" class="logo-f" style="height: 100px;
+    width: 100px;">
+            <p>The besty we cna offer</p>
+            <div class="btn-image">
+                <button><img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Rupay-Logo.png" alt="" class="img-555" style="height: 20px; width: 40px;"></button>
+                <button><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mastercard-logo.svg/1200px-Mastercard-logo.svg.png" alt="" class="img-555" style="height: 20px; width: 40px;"></button>
+                <button><img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Razorpay_logo.svg" alt="" class="img-555" style="height: 20px; width: 40px;"></button>
+                <button><img src="https://static.vecteezy.com/system/resources/previews/020/975/576/non_2x/visa-logo-visa-icon-transparent-free-png.png" alt="" class="img-555" style="height: 20px; width: 40px;"></button>
+            </div>
+
+        </div>
+        <div class="box-2">
+            <div class="heading">
+                <h3>Shopping</h3>
+            </div>
+            <ul class="list-b">
+                <li>Computer store</li>
+                <li>Laptop store</li>
+                <li>Accessories</li>
+                <li>Sales & Discount</li>
+            </ul>
+        </div>
+        <div class="box-3">
+            <div class="heading">
+                <h3>Experience</h3>
+            </div>
+            <ul class="list-b">
+                <li>Contact Us</li>
+                <li>Payment Method</li>
+                <li>Delivery</li>
+                <li>Return and exchance</li>
+            </ul>
+        </div>
+        <div class="box-4">
+            <div class="heading">
+                <h3>News-Letter</h3>
+            </div>
+            <p>Be the first to write to us</p>
+            <input type="email" placeholder="e-mail">
+        </div>
+    </div>
+
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>

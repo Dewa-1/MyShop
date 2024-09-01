@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header Part -->
+    <section class="upar-header">
+        <div class="container-a">
+            <h5>Free-shipping, 30 day return, refund guarantee</h5>
+            <div class="buttons">
+                <button>Sign-In</button>
+                <button>Sign-Up</button>
+            </div>
+        </div>
+        <div class="container-b-header">
+            <div class="logo">
+                <img src="https://cdn-icons-png.flaticon.com/512/2697/2697432.png" alt="Owner Store Logo" class="img-1">
+                <h3>Owner-Store</h3>
+            </div>
+            <div class="nav-bar">
+                <ul class="list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutUs.html">About</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contactus.html">Contact</a></li>
+                    <li>
+                        <a href="addtocart.html" class="cartvalue" id="cartvalue" style="text-decoration: none; color: black;">
+                            <i class="fa-solid fa-cart-shopping">0</i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Cart Template -->
+    <template id="cartTemplate">
+        <div class="cart-card" id="cardvalue">
+            <div class="cat-img">
+                <p class="category" id="category" style="background-color: grey; border-radius: 20px;"></p>
+            </div>
+            <div class="product-img">
+                <img src="" id="product-img" alt="Product Image" style="height: 75px; width: 50px;">
+            </div>
+            <p class="productName" id="productName"></p>
+            <div class="price" id="price">
+                <h2 id="pro-price"></h2>
+            </div>
+            <div class="adjs" id="adjs">
+                <button class="proIncrement btn-786" id="pro-increment">+</button>
+                <p class="prod-quant" id="prod-quant" data-quantity="1">1</p>
+                <button class="proDecrement btn-786" id="pro-decrement">-</button>
+            </div>
+            <div class="removecart" id="removecart">
+                <button class="rbatan" id="rbatan"><i class="fa-solid fa-cart-shopping"></i>Remove</button>
+            </div>
+        </div>
+    </template>
+
+    <!-- Cart Container -->
+    <div id="cartContainer"></div>
+
+    <!-- Total Calculation Section -->
+    <section class="calculate-tot">
+        <div class="container-total">
+            <div class="cart-total">
+                <p>Selected offer summary</p>
+                <hr>
+                <p class="sub-tot">Sub Total</p>
+                <h3 class="act">₹1385</h3>
+                <p class="sub-tot">Tax</p>
+                <h3 class="act">₹50</h3>
+                <hr>
+                <p class="sub-tot">Final Total</p>
+                <h3 class="act">₹1435</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Part -->
+    <div class="footer">
+        <div class="box-1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvL4tHGi6J4HfA2BxLTNgVSGWf5Dp3Gc92Dg&s" alt="Footer Logo" class="logo-f" style="height: 100px; width: 100px;">
+            <p>The best we can offer</p>
+            <div class="btn-image">
+                <button><img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Rupay-Logo.png" alt="Rupay Logo" class="img-555" style="height: 20px; width: 40px;"></button>
+                <button><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mastercard-logo.svg/1200px-Mastercard-logo.svg.png" alt="Mastercard Logo" class="img-555" style="height: 20px; width: 40px;"></button>
+                <button><img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Razorpay_logo.svg" alt="Razorpay Logo" class="img-555" style="height: 20px; width: 40px;"></button>
+                <button><img src="https://static.vecteezy.com/system/resources/previews/020/975/576/non_2x/visa-logo-visa-icon-transparent-free-png.png" alt="Visa Logo" class="img-555" style="height: 20px; width: 40px;"></button>
+            </div>
+        </div>
+        <div class="box-2">
+            <div class="heading">
+                <h3>Shopping</h3>
+            </div>
+            <ul class="list-b">
+                <li>Computer store</li>
+                <li>Laptop store</li>
+                <li>Accessories</li>
+                <li>Sales & Discount</li>
+            </ul>
+        </div>
+        <div class="box-3">
+            <div class="heading">
+                <h3>Experience</h>
+            </div>
+            <ul class="list-b">
+                <li>Contact Us</li>
+                <li>Payment Method</li>
+                <li>Delivery</li>
+                <li>Return and exchange</li>
+            </ul>
+        </div>
+        <div class="box-4">
+            <div class="heading">
+                <h3>News-Letter</h3>
+            </div>
+            <p>Be the first to write to us</p>
+            <input type="email" placeholder="e-mail">
+        </div>
+    </div>
+
+    <!-- Include your JS file -->
+    <script type="module" src="showcart.js"></script>
+</body>
+
+</html>
