@@ -12,17 +12,14 @@ offer
 Products section
 ![shop 3](https://github.com/user-attachments/assets/f527291f-bb01-4964-ae47-edc342df0be2)
 
-website overview
-![shop 6](https://github.com/user-attachments/assets/0f408d54-bb6a-47d2-ae6c-3c50a65b5084)
-
 
 about us page
 ![shop 6](https://github.com/user-attachments/assets/fafa5fff-d5e1-4e12-bd4e-903e68fa065f)
 
-Contact Us page
+About Us page
 ![shop 7](https://github.com/user-attachments/assets/a1f3e95c-843d-4b02-874a-91336039c1a7)
 
-
+Contact us
 ![shop 8](https://github.com/user-attachments/assets/76333671-a260-4c2c-afa3-7c6248d3684e)
 
 Cart page
