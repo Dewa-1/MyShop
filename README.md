@@ -13,7 +13,8 @@ Products section
 ![shop 3](https://github.com/user-attachments/assets/f527291f-bb01-4964-ae47-edc342df0be2)
 
 website overview
-![shop 5](https://github.com/user-attachments/assets/1c95ff78-9273-423b-a967-13098c213997)
+![shop 6](https://github.com/user-attachments/assets/0f408d54-bb6a-47d2-ae6c-3c50a65b5084)
+
 
 about us page
 ![shop 6](https://github.com/user-attachments/assets/fafa5fff-d5e1-4e12-bd4e-903e68fa065f)
